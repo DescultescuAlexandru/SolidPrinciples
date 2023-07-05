@@ -1,14 +1,11 @@
 package openclosedprinciple.after;
 
 /**
- * The Open-Closed Principle, states that software entities should be open for
- * extension but closed for modification. What does this mean?
- * It means that once you write code, you shouldn't need to change it every
- * time you want to add new functionality.
+ * All the existing or future roles will implement this interface and will
+ * provide specific implementation of the methods according to the roles.
  *
- *  Using a Java example with employees, it shows how to extend code without
- *  modifying it. You'll see how to easily add new features or behaviors without
- *  breaking existing code.
+ * Any time a new role emerges, all that is needed to be done is a new implementation
+ * of this interface for the new role without modifying the existing code.
  */
 
 public interface IEmployee {
