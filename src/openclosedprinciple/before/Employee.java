@@ -1,10 +1,14 @@
 package openclosedprinciple.before;
 
-public class EmployeeOC {
+/**
+ * Adding new roles requires modifying this class
+ */
+
+public class Employee {
       private String name;
       private String role;
 
-      public EmployeeOC(String name, String role) {
+      public Employee(String name, String role) {
             this.name = name;
             this.role = role;
       }
